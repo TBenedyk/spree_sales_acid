@@ -1,7 +1,7 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_sales'
+  s.name        = 'spree_sales_acid'
   s.version     = '2.2.0'
   s.summary     = 'Add sales prices to products'
   s.description = 'Add sales prices to products'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.1.4'
+  s.add_dependency 'spree_core', '~> 2.2.0'
 
   s.add_development_dependency 'capybara', '~> 2.1'
   s.add_development_dependency 'coffee-rails'

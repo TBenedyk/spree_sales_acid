@@ -1,8 +1,8 @@
-module SpreeSales
+module SpreeSalesAcid
   class Engine < Rails::Engine
     require 'spree/core'
     isolate_namespace Spree
-    engine_name 'spree_sales'
+    engine_name 'spree_sales_acid'
 
     config.autoload_paths += %W(#{config.root}/lib)
 
